@@ -1,0 +1,7 @@
+{
+  "name": "driver-inspection-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
