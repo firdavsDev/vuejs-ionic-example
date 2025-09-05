@@ -1,0 +1,16 @@
+{
+  "appId": "com.yourcompany.driverinspection",
+  "appName": "Driver Inspection",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    },
+    "GoogleAuth": {
+      "scopes": ["profile", "email"],
+      "serverClientId": "YOUR_GOOGLE_CLIENT_ID",
+      "forceCodeForRefreshToken": true
+    }
+  }
+}
